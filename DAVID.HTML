@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about, #projects, #contact {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.project {
+    margin: 15px 0;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+</style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header and Navigation -->
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm NWACHUKWU DAVID, a passionate web developer with experience in creating dynamic and responsive websites. I love coding and am constantly learning new technologies to enhance my skills.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>
+
+                Project Title: E-Learning Platform for Underprivileged Students: 
+                
+                Design and develop a basic e-learning platform providing free educational resources to underprivileged students in Nigeria, promoting education and equality.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>
+
+                Project Title: Branding Design for Eco-Friendly Products: 
+                
+                Create a comprehensive branding design for a new eco-friendly products company, "GreenCycle", that effectively communicates the brand's values and mission. Design a unique and memorable logo that incorporates elements of nature and sustainability. Also, create a business card and letterhead design that reflects the brand's identity, and develop a trifold brochure design that showcases the company's products and services. Ensure all design elements are consistent across all materials.</p>
+        </div>
+        <div class="project">
+            <h3>Project 3</h3>
+            <p>
+
+                Project Title: E-commerce Website Development for Fashion Brand: 
+                
+                Develop a visually appealing and user-friendly e-commerce website for a new fashion brand, "Trendy Closet". The website should showcase the brand's products, allow customers to make online purchases, and provide a seamless user experience. The website should be built using a suitable e-commerce platform (e.g. Shopify, WooCommerce) and should be optimized for search engines. Ensure the website is mobile-friendly and has a secure payment gateway.</p>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
